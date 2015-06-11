@@ -1,0 +1,31 @@
+{
+  "name": "fs-sort",
+  "version": "0.1.0",
+  "description": "Recursivly finds all files in path and create a list of all of those files orderded by the filter function provided",
+  "main": "app.js",
+  "dependencies": {
+    "minimatch": "^2.0.7"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "author": "thehobbit85",
+  "license": "MIT",
+  "keywords": [
+    "file system",
+    "filesystem",
+    "folder",
+    "size",
+    "file managment",
+    "folder managment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Colored-Coins/fs-sort.git"
+  }
+}
